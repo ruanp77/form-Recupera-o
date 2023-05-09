@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Recuperação</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <form class="form-control">
+        <h1>Formulario de pesquisa</h1>
+
+        <input type="text" id="pesquisaNome" placeholder="Nome:" class="form-control" required />
+        <br>
+        <input type="email" id="pesquisaEmail" placeholder="Email:" class="form-control" required />
+        <br>
+        <input type="number" id="PesquisaIdade" placeholder="Idade:" class="form-control" required />
+        <p>
+        <h4>Qual opção melhor te descreve</h4>
+        <select name="select">
+            <option value="valor1">Estudante</option>
+            <option value="valor2" selected>Empregado</option>
+            <option value="valor3">Parado</option>
+        </select>
+        </p>
+
+        <legend>Você é uma pessoa que gosta de estudar:</legend>
+        <div>
+            <input type="radio" id="huey" name="drone" value="huey" checked>
+            <label for="huey">Sim</label>
+        </div>
+        <div>
+            <input type="radio" id="dewey" name="drone" value="dewey">
+            <label for="dewey">Não</label>
+        </div>
+
+        <div>
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Talvez</label>
+        </div>
+
+
+        <div class="form-control">
+            
+        </p>
+            <label>Tecnologias que você conhece
+
+                <small>(Caso queira, pode marcar todos)</small>
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+
+                <input type="checkbox" name="inp">C</input></label>
+
+            <label for="inp-2">
+
+                <input type="checkbox" name="inp">C++</input></label>
+
+            <label for="inp-3">
+
+                <input type="checkbox" name="inp">C#</input></label>
+
+            <label for="inp-4">
+
+                <input type="checkbox" name="inp">Java</input></label>
+
+            <label for="inp-5">
+
+                <input type="checkbox" name="inp">Python</input></label>
+
+            <label for="inp-6">
+
+                <input type="checkbox" name="inp">JavaScript</input></label>
+
+            <label for="inp-7">
+
+                <input type="checkbox" name="inp">React</input></label>
+
+            <label for="inp-7">
+
+                <input type="checkbox" name="inp">Angular</input></label>
+
+            <label for="inp-7">
+
+                <input type="checkbox" name="inp">Django</input></label>
+
+            <label for="inp-7">
+
+                <input type="checkbox" name="inp">Spring</input></label>
+
+        </div>
+
+
+
+
+        <div class="form-control">
+
+            <label for="comment">
+
+                Comentários
+
+            </label>
+
+
+
+
+            <!-- multi-line text input control -->
+
+            <textarea name="comment" id="comment" placeholder="Enter your comment here">
+    </textarea>
+
+            <button onclick=" Verificar() " class="btn btn-warning">ENVIAR</button>
+        </div>
+    </form>
+</body>
+
+</html>
